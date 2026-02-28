@@ -1,0 +1,25 @@
+# tModLoader Build Configuration
+
+# Project Name
+ProjectName = "MyMod"
+
+# Mod Name
+ModName = "MyMod"
+
+# Version
+Version = "1.0.0"
+
+# Description
+Description = "A brief description of my mod."
+
+# Author
+Author = "Cameron Jackson"
+
+# Required Mods
+RequiredMods = [ "SomeOtherMod" ]
+
+# Settings
+Settings = {
+    "setting1": true,
+    "setting2": 42
+}
