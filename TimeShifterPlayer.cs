@@ -1,19 +1,33 @@
-// TimeShifterPlayer.cs
+// Time Shifter Player Class System
 
+using System;
 using Terraria;
+using Terraria.ModLoader;
 
-namespace TimeShifter
+namespace YourModNamespace
 {
     public class TimeShifterPlayer : ModPlayer
     {
-        public override void Initialize()
+        public int TimeShiftAmount { get; set; }
+
+        public override void PreUpdate()
         {
-            // Initialize the Time Shifter system here
+            // Logic for shifting time
+            if (TimeShiftAmount > 0)
+            {
+                // Example logic: Change game time by TimeShiftAmount
+                Main.time += TimeShiftAmount;
+            }
         }
 
-        public override void PostUpdate()
+        public void ShiftTime(int amount)
         {
-            // Handle post-update logic for Time Shifter here
+            TimeShiftAmount += amount;
+        }
+
+        public void ResetTimeShift()
+        {
+            TimeShiftAmount = 0;
         }
     }
 }
