@@ -1,25 +1,12 @@
-# tModLoader Build Configuration
-
-# Project Name
-ProjectName = "MyMod"
-
-# Mod Name
-ModName = "MyMod"
-
-# Version
-Version = "1.0.0"
-
-# Description
-Description = "A brief description of my mod."
-
-# Author
-Author = "Cameron Jackson"
-
-# Required Mods
-RequiredMods = [ "SomeOtherMod" ]
-
-# Settings
-Settings = {
-    "setting1": true,
-    "setting2": 42
+// Defining the mod metadata for tModLoader
+{
+  "name": "MyMod",
+  "displayName": "My Mod",
+  "version": "1.0.0",
+  "author": "cameronjackson6841",
+  "description": "This is a short description of My Mod.",
+  "repository": "https://github.com/cameronjackson6841/terraria",
+  "homepage": "https://github.com/cameronjackson6841/terraria",
+  "keywords": ["tModLoader", "mod"],
+  "dependencies": []
 }
