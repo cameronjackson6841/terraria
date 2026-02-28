@@ -1,8 +1,17 @@
-public class ResetButton
+using Terraria.ModLoader;
+
+namespace YourModName
 {
-    // Main mod class for ResetButton
-    public void OnButtonPress()
+    public class ResetButton : Mod
     {
-        // Logic for resetting the game
+        public override void Load()
+        {
+            // Load your mod's resources here.
+        }
+
+        public override void Unload()
+        {
+            // Clean up resources here.
+        }
     }
 }
