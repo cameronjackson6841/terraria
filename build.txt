@@ -1,12 +1,12 @@
-// Defining the mod metadata for tModLoader
-{
-  "name": "MyMod",
-  "displayName": "My Mod",
-  "version": "1.0.0",
-  "author": "cameronjackson6841",
-  "description": "This is a short description of My Mod.",
-  "repository": "https://github.com/cameronjackson6841/terraria",
-  "homepage": "https://github.com/cameronjackson6841/terraria",
-  "keywords": ["tModLoader", "mod"],
-  "dependencies": []
-}
+# tModLoader Mod Configuration
+
+# tModLoader configuration for modding Terraria.
+
+# Add your mod-specific settings below.
+
+# Example settings:
+- ModName: SampleMod
+- Version: 1.0.0
+- Author: YourName
+
+# Adjust the settings as necessary for your TModLoader mod.
