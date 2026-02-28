@@ -1,21 +1,18 @@
 using Terraria.ModLoader;
 
-namespace ResetButtonMod
+namespace YourModNamespace
 {
     public class ResetButton : Mod
     {
         public override void Load()
         {
-            // Load your mod content here
+            // Mod loading logic goes here
         }
 
-        // This can be added for the Time Shifter class
-        public class TimeShifter
-        {
-            public void ShiftTime(int hours)
-            {
-                // Logic to shift time
-            }
-        }
+        public override string Name => "YourModName";
+        public override string Author => "cameronjackson6841";
+        public override string Description => "This is a sample mod that includes a reset button.";
+        public override string Version => "1.0.0";
+        // Add any other desired metadata fields
     }
 }
