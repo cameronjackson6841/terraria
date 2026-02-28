@@ -1,18 +1,18 @@
-using Terraria.ModLoader;
+// ResetButton.cs
+
+using System;
+using Terraria; // Make sure to include the necessary Terraria namespaces for your mod
 
 namespace YourModNamespace
 {
-    public class ResetButton : Mod
+    public class ResetButton
     {
-        public override void Load()
+        // Main mod class implementation goes here
+        // Example method
+        public void OnButtonPressed()
         {
-            // Mod loading logic goes here
+            // Logic for resetting something in the game
+            Console.WriteLine("Reset button pressed!");
         }
-
-        public override string Name => "YourModName";
-        public override string Author => "cameronjackson6841";
-        public override string Description => "This is a sample mod that includes a reset button.";
-        public override string Version => "1.0.0";
-        // Add any other desired metadata fields
     }
 }
